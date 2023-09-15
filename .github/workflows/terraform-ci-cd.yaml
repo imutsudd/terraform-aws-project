@@ -23,7 +23,7 @@ jobs:
       uses: aws-actions/configure-aws-credentials@v4
       with:
         # Hands-on 3: Replace this with your OIDC role
-        role-to-assume: arn:aws:iam::12345678910:role/deployment-role
+        role-to-assume: arn:aws:iam::065560001921:role/deployment-role
         aws-region: us-east-1
 
     # Hands-on 3: Add a step to Setup terraform on the GitHub Runner using this action https://github.com/hashicorp/setup-terraform
